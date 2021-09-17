@@ -1,26 +1,40 @@
-/* Color Pallette: https://coolors.co/ffe787-392b58-82a3a1-dba8ac-335145
-Yellow: ffe787
-Dark Blue:392b58
-Light Blue: 82a3a1
-Pink: dba8ac
-Green: 335145
+/* Color Pallette: https://coolors.co/fefbec-392b58-82a3a1-dba8ac-335145
+Ivory: #FEFBEC
+Dark Blue:#392b58
+Light Blue: #82a3a1
+Pink: #dba8ac
+Green: #335145
 */
 
 /* ----- Global Styles ----- */
+body {
+    color: #392b58;
+}
 img {
     width: 300px;
 }
 
 /* ----- Profile ----- */
-
+header {
+    background-color: #335145;
+    color: #FEFBEC;
+}
 
 /* ----- Projects ----- */
-
+.projects {
+    background-color: #FEFBEC;
+}
 
 /* ----- Work Experience ----- */
-
+.work-experience {
+    background-color: #82a3a1;
+}
 
 /* ----- Education ----- */
 
 
 /* ----- Contact Info ----- */
+footer {
+    background-color: #392b58;
+    color: #FEFBEC;
+}
