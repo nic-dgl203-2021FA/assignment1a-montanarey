@@ -1,9 +1,10 @@
 /* Color Pallette: https://coolors.co/fefbec-392b58-82a3a1-dba8ac-335145
-Ivory: #FEFBEC
-Dark Blue:#392b58
-Light Blue: #82a3a1
-Pink: #dba8ac
-Green: #335145
+Darkest: #2F3E46
+Medium: #354F52
+Neutral: #CAD2C5
+Almost-white: #F5F6F4
+Accent Light: #DD7373
+Accent Dark: #945D5E
 */
 
 /* ----- Global Styles ----- */
@@ -14,7 +15,7 @@ html {
     box-sizing: inherit;
 }
 body {
-    color: #392b58;
+    color: #2F3E46;
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
@@ -25,7 +26,7 @@ img {
     width: 300px;
 }
 a {
-    color: #dba8ac;
+    color: #DD7373;
 }
 a:hover {
     text-decoration: none;
@@ -56,7 +57,7 @@ h3 {
     margin: 0;
 }
 .divider > section {
-    border-bottom: 1px dashed #392b58;
+    border-bottom: 1px dashed #2F3E46;
     padding: 25px 0;
 }
 .divider > section:last-of-type {
@@ -65,27 +66,30 @@ h3 {
 
 /* ----- Profile ----- */
 header {
-    background-color: #335145;
-    color: #FEFBEC;
+    background-color: #2F3E46;
+    color: #F5F6F4;
+}
+header h1, header h2 {
+    color: #DD7373;
 }
 
 /* ----- Projects ----- */
 .projects {
-    background-color: #FEFBEC;
+    background-color: #CAD2C5;
 }
 .projects a{
-    color: #82a3a1;
+    color: #945D5E;
 }
 .projects .btn {
-    color: #FEFBEC;
-    background-color: #335145;
+    color: #F5F6F4;
+    background-color: #945D5E;
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
     display: inline-block;
 }
 .projects .btn:hover {
-    background-color: rgba(51, 81, 69, 80%);
+    background-color: #DD7373;
 }
 .project-item {
     overflow: hidden;
@@ -96,7 +100,11 @@ header {
 
 /* ----- Work Experience ----- */
 .work-experience {
-    background-color: #82a3a1;
+    background-color: #354F52;
+    color: #F5F6F4;
+}
+.work-experience h2 {
+    color: #DD7373;
 }
 
 /* ----- Education ----- */
@@ -112,8 +120,8 @@ header {
 
 /* ----- Contact Info ----- */
 footer {
-    background-color: #392b58;
-    color: #FEFBEC;
+    background-color: #2F3E46;
+    color: #F5F6F4;
 }
 .contact-list {
     list-style-type: none;
