@@ -112,13 +112,10 @@ header h1, header h2 {
 
 /* ----- Education ----- */
 .education {
-    background-image: url(../images/joanna-kosinska-unsplash.jpg);
-    background-size: cover;
-    background-position: top right;
-    padding-bottom: 100px;
+    background-color: #CAD2C5;
 }
-.education p {
-    width: 60%;
+.education h2 {
+    color: #DD7373;
 }
 
 /* ----- Contact Info ----- */
