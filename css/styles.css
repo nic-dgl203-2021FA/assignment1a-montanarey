@@ -147,4 +147,7 @@ footer {
         font-size: 60px;
         line-height: 100%;
     }
+    h2 {
+        line-height: 125%;
+    }
 }
