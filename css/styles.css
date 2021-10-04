@@ -100,14 +100,14 @@ header h1, header h2 {
 
 /* ----- Work Experience ----- */
 .work-experience {
-    background-image: url(../images/annie-spratt-unsplash.jpg);
+    background-image: url(../images/annie-spratt-unsplash-blurred.png);
     background-size: cover;
     background-position: top right;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     color: #F5F6F4;
 }
-.work-experience h2 {
-    color: #DD7373;
+.work-experience section {
+    border-bottom: 1px dashed #F5F6F4;
 }
 
 /* ----- Education ----- */
