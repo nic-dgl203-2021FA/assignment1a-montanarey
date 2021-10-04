@@ -146,6 +146,7 @@ footer {
     h1 {
         font-size: 60px;
         line-height: 100%;
+        margin-bottom: -10px;
     }
     h2 {
         line-height: 125%;
