@@ -134,6 +134,8 @@ header h2 {
 /* ----- Contact Info ----- */
 footer {
     background-color: #2F3E46;
+}
+#contact_section {
     color: #F5F6F4;
 }
 .contact-list {
