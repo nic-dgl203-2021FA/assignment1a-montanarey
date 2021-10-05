@@ -103,6 +103,7 @@ nav a:hover {
 /* ----- Projects ----- */
 .projects {
     background-color: #CAD2C5;
+    padding-bottom: 50px;
 }
 .projects a{
     color: #945D5E;
@@ -144,12 +145,14 @@ nav a:hover {
 .education {
     background-color: #CAD2C5;
     color: #2F3E46;
+    padding-bottom: 50px;
 }
 
 /* ----- Achievements ----- */
 .achievements {
     background-color: #F5F6F4;
     color: #2F3E46;
+    padding-bottom: 50px;
 }
 
 /* ----- Contact Info ----- */
