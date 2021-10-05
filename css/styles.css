@@ -85,6 +85,12 @@ header h2 {
 /* ----- Navigation ----- */
 nav ul {
     list-style: none;
+    float: right;
+    margin-right: 20px;
+}
+nav li {
+    display: inline;
+    padding: 0 8px;
 }
 nav a {
     text-decoration: none;
