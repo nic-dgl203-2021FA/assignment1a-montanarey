@@ -94,6 +94,11 @@ nav li {
 }
 nav a {
     text-decoration: none;
+    color: #CAD2C5;
+}
+nav a:hover {
+    color: #DD7373;
+    text-decoration: underline;
 }
 
 /* ----- Projects ----- */
