@@ -82,6 +82,14 @@ header h2 {
     color: #598388;
 }
 
+/* ----- Navigation ----- */
+nav ul {
+    list-style: none;
+}
+nav a {
+    text-decoration: none;
+}
+
 /* ----- Projects ----- */
 .projects {
     background-color: #CAD2C5;
