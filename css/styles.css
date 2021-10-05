@@ -198,6 +198,17 @@ footer {
     padding: 2em;
     background-color: white;
 }
+.modal-close {
+    color: #CAD2C5;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 70px;
+    text-decoration: none;
+}
+.modal-close:hover {
+    color: #2F3E46;
+}
 
 /* ----- Responsive Media Queries ----- */
 @media screen and (min-width: 750px){
