@@ -115,6 +115,11 @@ header h1, header h2 {
     background-color: #CAD2C5;
 }
 
+/* ----- Awards ----- */
+.awards {
+    background-color: #F5F6F4;
+}
+
 /* ----- Contact Info ----- */
 footer {
     background-color: #2F3E46;
