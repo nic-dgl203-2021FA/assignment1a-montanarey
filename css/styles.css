@@ -1,6 +1,6 @@
 /* Color Pallette: https://coolors.co/fefbec-392b58-82a3a1-dba8ac-335145
 Darkest: #2F3E46
-Medium: #354F52
+Medium: #598388
 Neutral: #CAD2C5
 Almost-white: #F5F6F4
 Accent Light: #DD7373
@@ -71,6 +71,9 @@ header {
 }
 header h1, header h2 {
     color: #DD7373;
+}
+header h2 {
+    color: #598388;
 }
 
 /* ----- Projects ----- */
