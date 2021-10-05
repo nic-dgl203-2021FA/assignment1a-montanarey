@@ -33,8 +33,6 @@ img {
 }
 a {
     color: #DD7373;
-}
-a:hover {
     text-decoration: none;
 }
 h1 {
@@ -170,6 +168,9 @@ footer {
 .contact-list a {
     padding: 15px;
     display: inline-block;
+}
+.contact-list a:hover {
+    text-decoration: underline;
 }
 
 /* ----- Socials Modal ----- */
