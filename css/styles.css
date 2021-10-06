@@ -133,9 +133,6 @@ header h2 {
 .project-item h3 {
     margin-top: 0;
 }
-#projects_section {
-    color: #2F3E46;
-}
 
 /* ----- Work Experience ----- */
 .work-experience {
@@ -152,14 +149,12 @@ header h2 {
 /* ----- Education ----- */
 .education {
     background-color: #CAD2C5;
-    color: #2F3E46;
     padding-bottom: 50px;
 }
 
 /* ----- Achievements ----- */
 .achievements {
     background-color: #F5F6F4;
-    color: #2F3E46;
     padding-bottom: 50px;
 }
 
@@ -168,8 +163,8 @@ footer {
     background-color: #2F3E46;
 }
 #contact_section {
-    color: #F5F6F4;
     padding: 0;
+    color: #F5F6F4;
 }
 .contact-list {
     list-style-type: none;
