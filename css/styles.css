@@ -68,6 +68,33 @@ h3 {
     border-bottom: none;
 }
 
+
+/* ----- Navigation ----- */
+nav {
+    background-color: #598388;
+    position: fixed;
+    width: 100%;
+}
+nav ul {
+    margin: 0 auto;
+    list-style: none;
+    text-align: right;
+    padding: 5px 15px;
+    float: right;
+}
+nav li {
+    display: inline;
+    padding: 0 8px;
+}
+nav a {
+    text-decoration: none;
+    color: #F5F6F4;
+}
+nav a:hover {
+    color: #DD7373;
+}
+
+
 /* ----- Profile ----- */
 header {
     background-color: #2F3E46;
@@ -80,23 +107,6 @@ header h2 {
     color: #598388;
 }
 
-/* ----- Navigation ----- */
-nav ul {
-    list-style: none;
-    float: left;
-}
-nav li {
-    display: inline;
-    padding: 0 8px;
-}
-nav a {
-    text-decoration: none;
-    color: #CAD2C5;
-}
-nav a:hover {
-    color: #DD7373;
-    text-decoration: underline;
-}
 
 /* ----- Projects ----- */
 .projects {
