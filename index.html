@@ -13,8 +13,18 @@
     <link href="css/styles.css" rel="stylesheet">
   </head>
   <body>
+    <!-- General changes made post-tutorial:
+      Picked new colour palette and changes site colours.
+    -->
     <main>
-      <!-- ***********************  ABOUT / PROFILE  *********************** -->
+      <!-- ***********************  NAV / PROFILE  *********************** -->
+      <!-- Nav/Profile changes made post-tutorial:
+        Added a bio write-up, adjusting font-size and padding between h1 and p elements.
+        Created a navbar linking to each section on the page. To accomplish this, I gave each section an id, then used that id in the
+        nav li href attribute. Styled the navbar to sit on the top right side of the header using fixed positioning, float, padding, and text-align properties.
+        Added media queries for devices with a width less than 750px, to have the Profile content align to the left, and the nav bar switch to a flex layout to
+        stack nicely. Used pseudo-selectors to style navbar links when being hovered.
+      -->
       <header>
         <nav>
           <ul>
@@ -38,6 +48,10 @@
       </header>
 
       <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
+      <!-- Projects changes made post-tutorial:
+        Added real content to each featured project section, including an image, title, description, and link. Renamed buttons where appropriate. 
+        Styled buttons using pseudo-selectors to create hover-effects, and modified colors to improve contrast and visibility. 
+      -->
       <section class="projects" id="projects_section">
         <div class="content-wrap divider">
           <h2>Featured Projects</h2>
@@ -86,6 +100,9 @@
 
 
       <!-- ***********************  WORK EXPERIENCE  *********************** -->
+      <!-- Work Experience changes made post-tutorial:
+        Added real content to list only the relevant work experience I have. Added a background image, and changed font colors for visibility.
+      -->
       <section class="work-experience" id="work_section">
         <div class="content-wrap item-details divider">
           <h2>Work Experience</h2>
@@ -207,6 +224,9 @@
   
 
       <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
+      <!-- Education changes made post-tutorial:
+        Added education history and related awards. Removed background photo, and updated background color and font-color for readability.
+      -->
       <section class="education" id="education_section"> 
         <div class="content-wrap item-details">
           <h2>Education</h2>
@@ -220,6 +240,9 @@
 
 
       <!-- ****************** ACHIEVEMENTS ****************** -->
+      <!-- Changes made post-tutorial:
+        Added new section to list achievements and awards, following the template of the Education section. Added link to navbar element.
+      -->
       <section class="achievements" id="achievements_section"> 
         <div class="content-wrap item-details">
           <h2>Achievements</h2>
@@ -246,6 +269,11 @@
 
 
       <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
+      <!-- Contact Info changes made post-tutorial:
+        Created a modal inside the ul using div elements with classes, then set the modal to visibility:hidden unless targeted. Put the social
+        media links inside the modal, and added a title and close button. Close button works by refreshing the page, which removes the targeted effect from the modal, rendering
+        it invisible. Added styling to the modal including darkening the outside container, adding a drop shadow, and changing font and background colours.
+      -->
       <footer id="contact_section"> 
         <div class="content-wrap" >
           <h2>Let's Keep in Touch!</h2>
