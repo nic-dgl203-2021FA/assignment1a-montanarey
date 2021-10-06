@@ -265,4 +265,7 @@ footer {
     .modal-window > div {
         max-width: 80%;
     }
+    .modal-close {
+        color: #598388;
+    }
 }
